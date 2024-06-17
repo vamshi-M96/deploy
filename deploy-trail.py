@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from pickle import load
+from pickle import open
 import pickle
 
 
@@ -40,7 +41,7 @@ st.write(df)
 # In[5]:
 
 
-Lmodel=load(open("deploy/survived.pkl",'rb'))
+Lmodel=load(open("survived.pkl",'rb'))
 Prediction = Lmodel.predict(df)
 predict_prob = Lmodel.predict_proba(df)
 st.subheader('predicted results')
