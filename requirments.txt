@@ -1,7 +1,0 @@
-streamlit
-pandas
-numpy
-ydata-profiling
-streamlit-pandas-profiling
-matplotlib.pyplot
-scikit-learn
