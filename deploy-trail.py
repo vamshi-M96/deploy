@@ -8,7 +8,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from pickle import load
-from pickle import open
 import pickle
 
 
