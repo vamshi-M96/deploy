@@ -40,7 +40,7 @@ st.write(df)
 # In[5]:
 
 
-Lmodel=pickle.load(open("survived.pkl",'rb'))
+Lmodel=pickle.load(open("survived.pkl",'r'))
 Prediction = Lmodel.predict(df)
 predict_prob = Lmodel.predict_proba(df)
 st.subheader('predicted results')
