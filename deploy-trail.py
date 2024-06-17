@@ -9,6 +9,7 @@ import pandas as pd
 import streamlit as st
 from pickle import load
 import pickle
+from sklearn.linear_model import LogisticRegression
 
 
 # In[2]:
