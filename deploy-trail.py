@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-
+pip3 install scit-learn
 
 import numpy as np
 import pandas as pd
