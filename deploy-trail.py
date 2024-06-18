@@ -3,7 +3,7 @@
 
 # In[1]:
 
-pip install -U scikit-learn
+
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -42,7 +42,7 @@ st.write(df)
 # In[5]:
 
 
-lmodel=pickle.load(open("survived.pkl",'rb'))
+lmodel=load(open("survived.pkl",'rt'))
 Prediction = lmodel.predict(df)
 predict_prob = lmodel.predict_proba(df)
 st.subheader('predicted results')
