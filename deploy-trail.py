@@ -3,7 +3,7 @@
 
 # In[1]:
 
-pip install sklearn
+pip install -U scikit-learn
 import numpy as np
 import pandas as pd
 import streamlit as st
