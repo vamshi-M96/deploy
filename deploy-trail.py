@@ -38,9 +38,14 @@ st.write(df)
 
 
 # In[5]:
+import joblib
 
 
-Lmodel=load(open("survived.pkl",'rb'))
+# load Vectorizer For Gender Prediction
+Lmodel_ = open("survived.pkl","rb")
+Lmodel = joblib.load(Lmodel_)
+
+#Lmodel=load(open("survived.pkl",'rb'))
 Prediction = Lmodel.predict(df)
 predict_prob = Lmodel.predict_proba(df)
 st.subheader('predicted results')
