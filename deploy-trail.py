@@ -2,7 +2,7 @@
 # coding: utf-8
 pip install -U scikit-learn
 # In[1]:
-import sklearn
+
 import streamlit as st
 import numpy as np
 import pandas as pd
