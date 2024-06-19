@@ -4,7 +4,7 @@
 # In[1]:
 
 import streamlit as st
-import joblib
+
 import numpy as np
 import pandas as pd
 
@@ -39,14 +39,11 @@ st.write(df)
 
 
 # In[5]:
-import joblib
 
 
-# load Vectorizer For Gender Prediction
-Lmodel_ = open("survived.pkl","rb")
-Lmodel = joblib.load(Lmodel_)
 
-#Lmodel=load(open("survived.pkl",'rb'))
+
+Lmodel=load(open("survived.pkl",'rb'))
 Prediction = Lmodel.predict(df)
 predict_prob = Lmodel.predict_proba(df)
 st.subheader('predicted results')
