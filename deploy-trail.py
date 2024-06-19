@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+pip install -U scikit-learn
 # In[1]:
 import sklearn
 import streamlit as st
