@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-pip install --exists-action=i scikit-learn
+pip install scikit-learn
 import streamlit as st
 
 import numpy as np
