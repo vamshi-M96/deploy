@@ -5,7 +5,6 @@
 
 from sklearn.linear_model import LogisticRegression
 import streamlit as st
-import sklearn.
 
 import numpy as np
 import pandas as pd
