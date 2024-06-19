@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-pip install sklearn
+pip install scit-learn
 
 import streamlit as st
 import sklearn
