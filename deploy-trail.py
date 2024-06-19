@@ -40,7 +40,7 @@ st.write(df)
 # In[5]:
 
 
-Lmodel=load(open("C:/Users/Nitro V 15/Desktop/deploy/survived.pkl",'rb'))
+Lmodel=load(open("deploy/survived.pkl",'rb'))
 Prediction = Lmodel.predict(df)
 predict_prob = Lmodel.predict_proba(df)
 st.subheader('predicted results')
