@@ -5,6 +5,7 @@
 
 
 pip install -U scikit-learn
+import sklearn
 
 
 # In[ ]:
