@@ -2,7 +2,10 @@
 # coding: utf-8
 
 # In[1]:
+python3 -m pip install sklearn
+
 import streamlit as st
+import sklearn
 
 import numpy as np
 import pandas as pd
