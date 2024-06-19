@@ -2,10 +2,10 @@
 # coding: utf-8
 
 # In[1]:
-!pip install scit-learn
 
+from sklearn.linear_model import LogisticRegression
 import streamlit as st
-import sklearn
+import sklearn.
 
 import numpy as np
 import pandas as pd
