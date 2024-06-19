@@ -6,3 +6,4 @@ streamlit-pandas-profiling
 matplotlib.pyplot
 sklearn
 scikit-learn
+joblib
