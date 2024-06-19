@@ -3,7 +3,7 @@
 
 # In[1]:
 import streamlit as st
-import sklearn
+
 import numpy as np
 import pandas as pd
 
