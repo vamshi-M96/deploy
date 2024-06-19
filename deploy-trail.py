@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-import scikit_learn
+import sckit-learn
 import streamlit as st
 import numpy as np
 import pandas as pd
