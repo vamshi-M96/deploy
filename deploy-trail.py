@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-python3 -m pip install sklearn
+pip install sklearn
 
 import streamlit as st
 import sklearn
