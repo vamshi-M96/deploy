@@ -43,7 +43,7 @@ st.write(df)
 
 
 
-Lmodel=load(open("survived.pkl",'rb'))
+Lmodel=load(open("https://github.com/vamshi-M96/deploy/blob/a51f47566cd6de9e1b2e36e4f742f818092aaaad/survived.pkl",'rb'))
 Prediction = Lmodel.predict(df)
 predict_prob = Lmodel.predict_proba(df)
 st.subheader('predicted results')
