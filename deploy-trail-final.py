@@ -40,9 +40,9 @@ st.write(df)
 # In[4]:
 
 with open("survived.pkl", "rb") as f:
-Lmodel=load(open(f,'rb'))
-Prediction = Lmodel.predict(df)
-predict_prob = Lmodel.predict_proba(df)
+    Lmodel=load(open(f,'rb'))
+    Prediction = Lmodel.predict(df)
+    predict_prob = Lmodel.predict_proba(df)
 st.subheader('predicted results')
 st.write('Not Survived' if Prediction[0]==0 else
          'Survived')
