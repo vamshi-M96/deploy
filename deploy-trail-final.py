@@ -39,8 +39,8 @@ st.write(df)
 
 # In[4]:
 
-
-Lmodel=load(open("survived.pkl",'rb'))
+with open("survived.pkl", "rb") as f:
+Lmodel=load(open(f,'rb'))
 Prediction = Lmodel.predict(df)
 predict_prob = Lmodel.predict_proba(df)
 st.subheader('predicted results')
