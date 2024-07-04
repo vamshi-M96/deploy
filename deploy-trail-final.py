@@ -40,7 +40,7 @@ st.write(df)
 # In[4]:
 
 
-Lmodel= pickle.load(open("C:/Users/Nitro V 15/Desktop/DATA SCIENCE assignments/survived.pkl",'rb'))
+Lmodel=load(open("C:/Users/Nitro V 15/Desktop/DATA SCIENCE assignments/survived.pkl",'rb'))
 Prediction = Lmodel.predict(df)
 predict_prob = Lmodel.predict_proba(df)
 st.subheader('predicted results')
