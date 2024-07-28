@@ -39,10 +39,12 @@ st.write(df)
 
 # In[4]:
 
-with open("survived.pkl", "rb") as f:
-    Lmodel= load(f)
-    Prediction = Lmodel.predict(df)
-    predict_prob = Lmodel.predict_proba(df)
+#with open("survived.pkl", "rb") as f:
+   # Lmodel= load(f)
+pickle_in = open('survived.pkl', 'rb') 
+Lmodel = pickle.load(pickle_in) 
+Prediction = Lmodel.predict(df)
+predict_prob = Lmodel.predict_proba(df)
 st.subheader('predicted results')
 st.write('Not Survived' if Prediction[0]==0 else
          'Survived')
